@@ -1,0 +1,182 @@
+body 
+{
+    background: #f2f2f2;
+    font: 14px Tahoma, Geneva, sans-serif;
+    margin: 0 auto;
+    width: 980px;
+}
+#menuroom
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    background-image:url(../images/bc_bg.png); 
+    background-repeat:repeat-x;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border:solid 1px #cacaca;
+    width:100%;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+}
+#menuroom li 
+{
+    list-style-type:none;
+    float:left;
+    padding-left:10px;
+}
+#menuroom a
+{
+    height:30px;
+    display:block;
+    background-image:url(../images/bc_separator.png); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#454545;
+    font-size: 15px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.home
+{
+    border:none;
+    margin: 8px 0px;
+}
+
+#menuroom a:hover
+{
+    color:#0055a2;
+}
+legend
+{
+    color: #0055a2;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+}
+fieldset.row1
+{
+    width:500px;
+    padding:5px;
+    float:left;
+	height:339px;
+    border-top:1px solid #9b9b9b;
+	border-right:1px solid #9b9b9b;
+	border-bottom:1px solid #9b9b9b;
+    margin-bottom:15px;
+}
+fieldset.row1 .finishStep {
+    color: red;
+}
+
+ fieldset.row1 label{
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+fieldset.row2
+{
+    width: 446px;
+    border-top:1px solid #9b9b9b;
+    border-right:1px solid #9b9b9b;
+	border-bottom:1px solid #9b9b9b;
+    height:339px;
+    padding:5px;
+    float:left;
+}
+fieldset.row2 ul.update {
+    list-style: none;
+}
+fieldset.row2 ul.update li {
+     font: 14px Tahoma, Geneva, sans-serif;
+    line-height: 30px;
+}
+fieldset.row2 ul.update li a {
+    color: #4c4c4c;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;
+    background: url(../images/marker_3.gif) 0 6px no-repeat;
+}
+
+fieldset.row1 .ideal-form {
+    width: 242px;
+    position: relative;
+    clear: both;
+    position: relative;
+    margin-bottom: 1em;
+}
+fieldset.row5
+{
+    width:500px;
+    padding:5px;
+    float:left;
+	height:561px;
+    border-top:1px solid #9b9b9b;
+	border-right:1px solid #9b9b9b;
+	border-bottom:1px solid #9b9b9b;
+    margin-bottom:15px;
+}
+
+
+fieldset.row6 {
+    width: 446px;
+    border-top:1px solid #9b9b9b;
+    border-right:1px solid #9b9b9b;
+    border-bottom:1px solid #9b9b9b;
+    height:560px;
+    padding:5px;
+    margin-left: -2px;
+    float:left;
+}
+fieldset.row6 input[type=text] {
+    width: 200px;
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+fieldset.row6 select.study {
+    width: 150px;
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+fieldset.row6 textarea.maindiscovery {
+    margin-top: 5px;
+    width: 420px;
+    border: 1px solid #E1E1E1;
+    height: 42px;
+}
+fieldset.row6 textarea.participation_discover {
+    margin-top: 5px;
+    width: 420px;
+    border: 1px solid #E1E1E1;
+    height: 42px;
+}
+fieldset.row6 textarea.publication {
+    margin-top: 5px;
+    width: 420px;
+    border: 1px solid #E1E1E1;
+    height: 42px;
+}
+fieldset.row6 textarea.participation {
+    margin-top: 5px;
+    width: 420px;
+    border: 1px solid #E1E1E1;
+    height: 42px;
+}
+fieldset.row6 textarea.prize {
+    margin-top: 5px;
+    width: 420px;
+    border: 1px solid #E1E1E1;
+    height: 42px;
+}
+.errormsg {
+ color: red;   
+}
+fieldset.row6 legend.important {
+    color: red;
+}
